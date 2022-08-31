@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Docker image...'
-                docker build -t tracker .
+                sh "docker build -t tracker ."
             }
         }
         stage('Test') {
