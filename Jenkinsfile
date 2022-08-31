@@ -4,17 +4,18 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building Docker image...'
+                docker build -t tracker .
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'No testing has been implemented..'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'No deployment has been implemented....'
             }
         }
     }
