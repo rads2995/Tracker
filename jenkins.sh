@@ -23,3 +23,4 @@ docker run --name jenkins-test --restart=on-failure --detach \
   --volume jenkins-data:/var/jenkins_home \
   --volume jenkins-docker-certs:/certs/client:ro \
   jenkins-test
+  
