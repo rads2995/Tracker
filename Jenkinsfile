@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'No build stage has been implemented...'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'No testing stage has been implemented..'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'No deployment stage has been implemented....'
             }
         }
     }
